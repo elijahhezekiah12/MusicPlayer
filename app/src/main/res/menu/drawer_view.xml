@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/View_saved_Workout"
+                android:title="View Saved Workout" />
+
+            <item
+                android:id="@+id/Exercise_Suggestion"
+                android:title="Recommend Exercise" />
+            <item
+                android:id="@+id/Workout_Suggestion"
+                android:title="Workout Routine" />
+            <item
+                android:id="@+id/Trainer_Chat"
+                android:title="Trainer Chat" />
+
+        </group>
+
+
+    <item android:title="Progress Monitor">
+    <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Record Exercise" />
+                <item
+
+                    android:title="Progress Pictures"/>
+            </group>
+    </menu>
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Wine"
+    app:theme= "@style/ThemeOverlay.AppCompat.Light"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:dividerPadding="8dp"
+        android:orientation="horizontal"
+        android:showDividers="end"
+        android:weightSum="1">
+    <Spinner
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:id="@id/bodypartSpinner"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:focusable="true"
+        android:spinnerMode="dropdown"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="20dp">
+
+    </Spinner>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textAllCaps="true"
+            android:id="@+id/save"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textColorHighlight="#230707"
+            android:textSize="20sp"
+            android:background="@color/Wine"
+            android:textAppearance="@style/AppTheme"
+            android:textStyle="bold"
+            android:layout_weight="0"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

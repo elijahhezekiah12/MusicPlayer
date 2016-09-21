@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bodypartSpinner" type="id">bodypartSpinner</item>
+    <item name="shareButton" type="id">shareButton</item>
+    <item name="deleteButton" type="id">deleteButton</item>
+    <item name="savedWorkoutappbar" type="id">savedWorkoutappbar</item>
+</resources>
