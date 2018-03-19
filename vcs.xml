@@ -10,8 +10,12 @@
           <option name="url" value="git@github.com:elijahhezekiah12/SymmetricSplits.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:elijahhezekiah12/Android-Bootstrap.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Downloads/SymmetricSplits" />
+    <option name="cloneParentDir" value="https://github.com/elijahhezekiah12/BinkTest" />
   </component>
 </application>
